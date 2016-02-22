@@ -1,0 +1,34 @@
+{
+  "name": "portal-exames",
+  "version": "0.0.1",
+  "description": "Portal de Exames",
+  "main": "server.js",
+  "repository": "",
+  "author": "Claudio Traspadini Oliveira <caltras@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "crypt": "0.0.1",
+    "ejs": "~0.8.5",
+    "express": "~3.2.4",
+    "express-session": "^1.13.0",
+    "firebase": "^2.4.0",
+    "lodash": "^4.5.0",
+    "passport": "^0.3.2",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
